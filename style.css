@@ -1,0 +1,149 @@
+/* استایل کلی برای تم مذهبی */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IRANSans', sans-serif;
+    background-color: #f3f4f6; /* پس‌زمینه روشن */
+    color: #333;
+    text-align: center;
+  }
+  
+  /* استایل لوگوی بالای صفحه */
+  .logo-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #f1f4f2; /* کادر سبز */
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    display: inline-block;
+  }
+  
+  .logo-container img {
+    max-width: 100px; /* سایز کوچک لوگو */
+    height: auto;
+    display: block;
+  }
+  
+  /* استایل تیر وسط صفحه */
+  .center-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 200px;
+    background-color: #28a745; /* رنگ سبز تیر */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 53, 128, 0.7); /* افکت نور سبز */
+  }
+  
+  /* استایل متن‌های مذهبی */
+  h1, h2, p {
+    margin: 10px 0;
+    color: #004d40; /* سبز تیره‌تر */
+  }
+  
+  footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 14px;
+    border-top: 5px solid #004d40;
+  }/* تنظیم اندازه فونت برای کل متن */
+body {
+    font-size: 18px; /* اندازه فونت اصلی */
+    font-family: 'IRANSans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* استایل متن‌های بزرگ‌تر مانند تیتر */
+  h1, h2 {
+    font-size: 28px; /* اندازه فونت تیترها */
+    margin: 10px 0;
+  }
+  
+  /* استایل پاراگراف‌ها */
+  p {
+    font-size: 18px; /* اندازه فونت پاراگراف‌ها */
+    line-height: 1.6; /* فاصله بین خطوط */
+    margin: 10px 20px;
+  }/* استایل جایگاه جستجو */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .search-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #28a745; /* کادر سبز */
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search-container button {
+    background-color: #40e0d0; /* سبز فیروزه‌ای */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .search-container button:hover {
+    background-color: #082158; /* رنگ فیروزه‌ای تیره‌تر هنگام هاور */
+  }label {
+    color: rgb(31, 7, 247);  /* رنگ متن را آبی می‌کند */
+    font-size: 18px;  /* اندازه فونت را ۱۸ پیکسل می‌کند */
+}
+button {
+  background-color: #1abc9c; /* رنگ پس‌زمینه فیروزه‌ای */
+  color: white; /* رنگ متن دکمه */
+  border: 2px solid #16a085; /* کادر دکمه */
+  padding: 10px 20px; /* فاصله درون دکمه */
+  font-size: 16px; /* اندازه فونت */
+  border-radius: 8px; /* گوشه‌های گرد دکمه */
+  cursor: pointer; /* نشانگر موس هنگام قرار گرفتن روی دکمه */
+  transition: all 0.3s ease; /* افکت انتقال نرم برای تغییرات */
+}
+
+button:hover {
+  background-color: #f01717; /* تغییر رنگ پس‌زمینه هنگام قرار گرفتن موس */
+  border-color: #1abc9c; /* تغییر رنگ کادر هنگام قرار گرفتن موس */
+}
+#inputVerb {
+  border: 2px solid #3498db; /* کادر آبی با ضخامت ۲ پیکسل */
+  padding: 8px 10px; /* فاصله داخلی ورودی */
+  font-size: 16px; /* اندازه فونت متن */
+  width: 200px; /* عرض ورودی */
+  border-radius: 4px; /* گوشه‌های گرد ورودی */
+}
+
+#inputVerb:focus {
+  border-color: #2980b9; /* تغییر رنگ کادر به آبی تیره هنگام فوکوس */
+  outline: none; /* حذف خط حاشیه هنگام فوکوس */
+}
+footer {
+  text-align: center; /* لوگو را در وسط صفحه قرار می‌دهد */
+  margin-top: 360px; /* فاصله از محتوای صفحه */
+  background-color: rgba(215, 238, 248, 0.055); /* پس‌زمینه سفید */
+  border: none; /* حذف خط اطراف footer */
+}
+
+footer .logo {
+  width: 200px; /* عرض لوگو به 100 پیکسل */
+  height: auto; /* حفظ نسبت ابعاد */
+}
